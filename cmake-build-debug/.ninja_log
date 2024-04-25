@@ -1,0 +1,16 @@
+# ninja log v5
+35	631	7349651856958667	CMakeFiles/sqlitecpp.dir/sqlitecpp/src/Exception.cpp.obj	1456ac4f0e124dd3
+1	1474	7352688033993485	CMakeFiles/C___Car_rental_command_line_application.dir/main.cpp.obj	3a130db28fb4e57d
+18	1191	7349651862545884	CMakeFiles/sqlitecpp.dir/sqlitecpp/src/Database.cpp.obj	afb483479e58ddb1
+10	826	7349651858916810	CMakeFiles/sqlitecpp.dir/sqlitecpp/src/Column.cpp.obj	622a459ad472be09
+1475	1740	7352688036108107	C___Car_rental_command_line_application.exe	7218d24df0f58698
+44	1174	7349651862377002	CMakeFiles/sqlitecpp.dir/sqlitecpp/src/Statement.cpp.obj	daadab48881317b4
+27	1118	7349651861811833	CMakeFiles/sqlitecpp.dir/sqlitecpp/src/Transaction.cpp.obj	d705bc3a6d10cf49
+1	1156	7349651862179216	CMakeFiles/sqlitecpp.dir/sqlitecpp/src/Backup.cpp.obj	c187e077fd0cdb7e
+50	1230	7349651862904773	CMakeFiles/sqlite3.dir/sqlite3/sqlite3.c.obj	30ee877480909a55
+1230	1300	7349651863626628	sqlite3.lib	e85724074bf62e9b
+1300	1354	7349651864171163	sqlitecpp.lib	c7a9fa2fbd0bccb3
+1	975	7354930964169219	CMakeFiles/C___Car_rental_command_line_application.dir/main.cpp.obj	3a130db28fb4e57d
+976	1262	7354930966417270	C___Car_rental_command_line_application.exe	7218d24df0f58698
+1	680	7354931290113421	CMakeFiles/C___Car_rental_command_line_application.dir/main.cpp.obj	3a130db28fb4e57d
+680	852	7354931291439786	C___Car_rental_command_line_application.exe	7218d24df0f58698
