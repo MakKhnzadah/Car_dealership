@@ -8,23 +8,23 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Cosie/Car_dealership/cmake-build-debug"/>
+				<Option working_dir="C:/Users/molvi/Car_dealership/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\Cosie\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 all"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\Cosie\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\Cosie\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\Cosie\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\molvi\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\molvi\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\molvi\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\molvi\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="sqlite3">
-				<Option output="C:/Users/Cosie/Car_dealership/cmake-build-debug/sqlite3.lib" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Cosie/Car_dealership/cmake-build-debug"/>
+				<Option output="C:/Users/molvi/Car_dealership/cmake-build-debug/sqlite3.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/molvi/Car_dealership/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="C:/Users/Cosie/Car_dealership/sqlite3"/>
+					<Add directory="C:/Users/molvi/Car_dealership/sqlite3"/>
 					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include"/>
 					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\ATLMFC\include"/>
 					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include"/>
@@ -33,23 +33,22 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\Cosie\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 sqlite3"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\Cosie\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\Cosie\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\Cosie\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\molvi\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 sqlite3"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\molvi\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\molvi\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\molvi\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="sqlite3/fast">
-				<Option output="C:/Users/Cosie/Car_dealership/cmake-build-debug/sqlite3.lib" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Cosie/Car_dealership/cmake-build-debug"/>
+				<Option output="C:/Users/molvi/Car_dealership/cmake-build-debug/sqlite3.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/molvi/Car_dealership/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="C:/Users/Cosie/Car_dealership/sqlite3"/>
+					<Add directory="C:/Users/molvi/Car_dealership/sqlite3"/>
 					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include"/>
 					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\ATLMFC\include"/>
 					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include"/>
@@ -58,24 +57,23 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\Cosie\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 sqlite3/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\Cosie\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\Cosie\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\Cosie\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\molvi\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 sqlite3/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\molvi\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\molvi\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\molvi\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="sqlitecpp">
-				<Option output="C:/Users/Cosie/Car_dealership/cmake-build-debug/sqlitecpp.lib" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Cosie/Car_dealership/cmake-build-debug"/>
+				<Option output="C:/Users/molvi/Car_dealership/cmake-build-debug/sqlitecpp.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/molvi/Car_dealership/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="C:/Users/Cosie/Car_dealership/sqlitecpp/include"/>
-					<Add directory="C:/Users/Cosie/Car_dealership/sqlite3"/>
+					<Add directory="C:/Users/molvi/Car_dealership/sqlitecpp/include"/>
+					<Add directory="C:/Users/molvi/Car_dealership/sqlite3"/>
 					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include"/>
 					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\ATLMFC\include"/>
 					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include"/>
@@ -84,24 +82,23 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\Cosie\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 sqlitecpp"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\Cosie\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\Cosie\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\Cosie\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\molvi\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 sqlitecpp"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\molvi\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\molvi\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\molvi\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="sqlitecpp/fast">
-				<Option output="C:/Users/Cosie/Car_dealership/cmake-build-debug/sqlitecpp.lib" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Cosie/Car_dealership/cmake-build-debug"/>
+				<Option output="C:/Users/molvi/Car_dealership/cmake-build-debug/sqlitecpp.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/molvi/Car_dealership/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="C:/Users/Cosie/Car_dealership/sqlitecpp/include"/>
-					<Add directory="C:/Users/Cosie/Car_dealership/sqlite3"/>
+					<Add directory="C:/Users/molvi/Car_dealership/sqlitecpp/include"/>
+					<Add directory="C:/Users/molvi/Car_dealership/sqlite3"/>
 					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include"/>
 					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\ATLMFC\include"/>
 					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include"/>
@@ -110,24 +107,23 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\Cosie\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 sqlitecpp/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\Cosie\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\Cosie\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\Cosie\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\molvi\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 sqlitecpp/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\molvi\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\molvi\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\molvi\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="C___Car_rental_command_line_application">
-				<Option output="C:/Users/Cosie/Car_dealership/cmake-build-debug/C___Car_rental_command_line_application.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Cosie/Car_dealership/cmake-build-debug"/>
+				<Option output="C:/Users/molvi/Car_dealership/cmake-build-debug/C___Car_rental_command_line_application.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/molvi/Car_dealership/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="C:/Users/Cosie/Car_dealership/sqlite3"/>
-					<Add directory="C:/Users/Cosie/Car_dealership/sqlitecpp/include"/>
+					<Add directory="C:/Users/molvi/Car_dealership/sqlite3"/>
+					<Add directory="C:/Users/molvi/Car_dealership/sqlitecpp/include"/>
 					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include"/>
 					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\ATLMFC\include"/>
 					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include"/>
@@ -136,24 +132,23 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\Cosie\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 C___Car_rental_command_line_application"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\Cosie\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\Cosie\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\Cosie\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\molvi\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 C___Car_rental_command_line_application"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\molvi\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\molvi\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\molvi\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="C___Car_rental_command_line_application/fast">
-				<Option output="C:/Users/Cosie/Car_dealership/cmake-build-debug/C___Car_rental_command_line_application.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Cosie/Car_dealership/cmake-build-debug"/>
+				<Option output="C:/Users/molvi/Car_dealership/cmake-build-debug/C___Car_rental_command_line_application.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/molvi/Car_dealership/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="C:/Users/Cosie/Car_dealership/sqlite3"/>
-					<Add directory="C:/Users/Cosie/Car_dealership/sqlitecpp/include"/>
+					<Add directory="C:/Users/molvi/Car_dealership/sqlite3"/>
+					<Add directory="C:/Users/molvi/Car_dealership/sqlitecpp/include"/>
 					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include"/>
 					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\ATLMFC\include"/>
 					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include"/>
@@ -162,64 +157,63 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\Cosie\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 C___Car_rental_command_line_application/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\Cosie\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\Cosie\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\Cosie\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\molvi\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 C___Car_rental_command_line_application/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\molvi\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\molvi\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\molvi\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Cosie/Car_dealership/cmake-build-debug"/>
+				<Option working_dir="C:/Users/molvi/Car_dealership/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\Cosie\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\Cosie\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\Cosie\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\Cosie\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\molvi\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\molvi\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\molvi\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\molvi\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Cosie/Car_dealership/cmake-build-debug"/>
+				<Option working_dir="C:/Users/molvi/Car_dealership/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\Cosie\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\Cosie\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\Cosie\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\Cosie\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\molvi\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\molvi\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\molvi\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\molvi\Car_dealership\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Cosie/Car_dealership/main.cpp">
+		<Unit filename="C:/Users/molvi/Car_dealership/main.cpp">
 			<Option target="C___Car_rental_command_line_application"/>
 		</Unit>
-		<Unit filename="C:/Users/Cosie/Car_dealership/sqlite3/sqlite3.c">
+		<Unit filename="C:/Users/molvi/Car_dealership/sqlite3/sqlite3.c">
 			<Option target="sqlite3"/>
 		</Unit>
-		<Unit filename="C:/Users/Cosie/Car_dealership/sqlite3/sqlite3.h">
+		<Unit filename="C:/Users/molvi/Car_dealership/sqlite3/sqlite3.h">
 			<Option target="sqlite3"/>
 		</Unit>
-		<Unit filename="C:/Users/Cosie/Car_dealership/sqlitecpp/src/Backup.cpp">
+		<Unit filename="C:/Users/molvi/Car_dealership/sqlitecpp/src/Backup.cpp">
 			<Option target="sqlitecpp"/>
 		</Unit>
-		<Unit filename="C:/Users/Cosie/Car_dealership/sqlitecpp/src/Column.cpp">
+		<Unit filename="C:/Users/molvi/Car_dealership/sqlitecpp/src/Column.cpp">
 			<Option target="sqlitecpp"/>
 		</Unit>
-		<Unit filename="C:/Users/Cosie/Car_dealership/sqlitecpp/src/Database.cpp">
+		<Unit filename="C:/Users/molvi/Car_dealership/sqlitecpp/src/Database.cpp">
 			<Option target="sqlitecpp"/>
 		</Unit>
-		<Unit filename="C:/Users/Cosie/Car_dealership/sqlitecpp/src/Exception.cpp">
+		<Unit filename="C:/Users/molvi/Car_dealership/sqlitecpp/src/Exception.cpp">
 			<Option target="sqlitecpp"/>
 		</Unit>
-		<Unit filename="C:/Users/Cosie/Car_dealership/sqlitecpp/src/Statement.cpp">
+		<Unit filename="C:/Users/molvi/Car_dealership/sqlitecpp/src/Statement.cpp">
 			<Option target="sqlitecpp"/>
 		</Unit>
-		<Unit filename="C:/Users/Cosie/Car_dealership/sqlitecpp/src/Transaction.cpp">
+		<Unit filename="C:/Users/molvi/Car_dealership/sqlitecpp/src/Transaction.cpp">
 			<Option target="sqlitecpp"/>
 		</Unit>
-		<Unit filename="C:/Users/Cosie/Car_dealership/CMakeLists.txt">
+		<Unit filename="C:/Users/molvi/Car_dealership/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -1,5 +1,5 @@
-C:/Users/Cosie/Car_dealership/cmake-build-debug/CMakeFiles/sqlite3.dir
-C:/Users/Cosie/Car_dealership/cmake-build-debug/CMakeFiles/sqlitecpp.dir
-C:/Users/Cosie/Car_dealership/cmake-build-debug/CMakeFiles/C___Car_rental_command_line_application.dir
-C:/Users/Cosie/Car_dealership/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Cosie/Car_dealership/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/molvi/Car_dealership/cmake-build-debug/CMakeFiles/sqlite3.dir
+C:/Users/molvi/Car_dealership/cmake-build-debug/CMakeFiles/sqlitecpp.dir
+C:/Users/molvi/Car_dealership/cmake-build-debug/CMakeFiles/C___Car_rental_command_line_application.dir
+C:/Users/molvi/Car_dealership/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/molvi/Car_dealership/cmake-build-debug/CMakeFiles/rebuild_cache.dir
