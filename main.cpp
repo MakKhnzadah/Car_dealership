@@ -7,7 +7,6 @@
 #include "rapidjson/filereadstream.h"
 #include <fstream>
 
-
 using namespace std;
 
 class DatabaseManager
@@ -113,7 +112,7 @@ public:
 
     void exportToJson(const string &filename)
     {
-        ifstream outFile("filename");
+        fstream outFile("filename");
         if (!outFile.is_open())
         {
             cerr << "Failed to open " << filename << "\n";
@@ -193,7 +192,7 @@ public:
 */
     void importFromJson(const string &filename)
     {
-        ifstream inFile(filename);
+        fstream inFile(filename);
         if (!inFile.is_open())
         {
             cerr << "Failed to open " << filename << "\n";
