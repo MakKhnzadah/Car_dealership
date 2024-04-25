@@ -5,6 +5,7 @@
 #include <string>
 #include "rapidjson/document.h"
 #include "rapidjson/filereadstream.h"
+#include <fstream>
 
 
 using namespace std;

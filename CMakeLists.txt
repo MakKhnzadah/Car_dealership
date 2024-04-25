@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.27)
+cmake_minimum_required(VERSION 3.26)
 project(C___Car_rental_command_line_application)
 
 set(CMAKE_CXX_STANDARD 17)
