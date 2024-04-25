@@ -1,0 +1,15 @@
+[
+  {
+    "customer_id": 13,
+    "name": "Kai",
+    "phone_number": 99887766,
+    "email_address": "k.kai@uia.no"
+  },
+
+  {
+    "customer_id": 14,
+    "name": "Lars",
+    "phone_number": 99885523,
+    "email_address": "m.lars@uia.no"
+  }
+]

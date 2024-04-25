@@ -112,7 +112,7 @@ public:
 
     void exportToJson(const string &filename)
     {
-        ofstream outFile(filename);
+        ifstream outFile("filename");
         if (!outFile.is_open())
         {
             cerr << "Failed to open " << filename << "\n";

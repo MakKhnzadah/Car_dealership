@@ -1,0 +1,15 @@
+[
+  {
+    "registration_number": 1,
+    "make": "Toyota",
+    "model": 2022,
+    "status": "available"
+  },
+
+  {
+    "registration_number": 2,
+    "name": "BMW",
+    "age": 2023,
+    "attendance": " not available"
+  }
+]
